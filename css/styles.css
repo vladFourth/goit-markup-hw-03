@@ -101,8 +101,12 @@ color: #404bbf;
 .hero {
     background: #2E2F42;
     font-family: 'Roboto', sans-serif;
+    padding: 188px 0;
 }
 
+.hero-position {
+    padding: 188px 0;
+}
 
 .section-title {
     font-family: 'Roboto';
