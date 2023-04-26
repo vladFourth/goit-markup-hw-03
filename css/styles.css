@@ -2,13 +2,16 @@
     
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
  
-
+img {
+  display: block;  
+}
 
 .logo-particle-header {
     color: #2E2F42; 
