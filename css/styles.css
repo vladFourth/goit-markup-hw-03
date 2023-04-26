@@ -28,6 +28,11 @@ img {
     padding: 0 15px;
 }
 
+.nav-position {
+display: flex;
+align-items: center;
+}
+
 .logo-particle-header {
     color: #2E2F42; 
 }
@@ -37,6 +42,11 @@ img {
 }
 .header-address {
     font-style: normal;
+}
+
+.address-position {
+display: flex;
+    gap: 40px;
 }
 
 .address-item {
@@ -72,6 +82,7 @@ text-decoration: none;
     
         /* NAVY BLUE */
         color: #2E2F42;
+        padding: 24px 0;
 }
 .header-nav:hover{
 color: #404bbf;
@@ -82,12 +93,8 @@ color: #404bbf;
 }
 
 .header-nav {
-    color: #2E2F42;
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
+        display: flex;
+        gap: 40px;
 }
 
 .hero {
@@ -244,6 +251,7 @@ button[type="button"]:focus {
     color: #4d5ae5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .list {
