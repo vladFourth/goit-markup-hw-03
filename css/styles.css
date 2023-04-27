@@ -117,6 +117,20 @@ color: #404bbf;
         color: #2E2F42;
 }
 
+.section-two {
+    padding: 120px 0;
+}
+
+.section-two-position {
+    display: flex;
+    gap: 24px;
+}
+
+.section-two-item {
+    width: calc((100% - 72px) / 4);
+
+}
+
 .section-title-two {
 letter-spacing: 0.02em;
 }
@@ -155,6 +169,7 @@ letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2E2F42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .description {
