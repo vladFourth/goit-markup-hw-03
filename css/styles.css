@@ -302,6 +302,7 @@ button[type="button"]:focus {
 
 .site-footer {
     background: #2E2F42;
+    padding: 100px 0;
 }
 
 .logo {
