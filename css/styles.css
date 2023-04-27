@@ -219,6 +219,17 @@ font-family: 'Roboto';
     letter-spacing: 0.02em;
 }
 
+.section-portfolio {
+    padding: 96px 0 120px;
+}
+
+.section-portfolio-list {
+display: flex;
+justify-content: center;
+gap: 24px;
+margin-bottom: 72px;
+}
+
 .filter {
     font-family: 'Roboto',
         sans-serif;
@@ -231,7 +242,15 @@ font-family: 'Roboto';
         background: #F4F4FD;
 }
 
+.filter-button-position {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
 
+.filter-button-position:hover, .filter-button-position:focus {
+    border: 1px solid transparent;
+}
 
 .filter-button {
     font-family: "Roboto", sans-serif;
