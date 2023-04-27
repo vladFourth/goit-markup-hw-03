@@ -305,6 +305,11 @@ button[type="button"]:focus {
     padding: 100px 0;
 }
 
+.footer-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .logo {
     font-family: 'Raleway',
         sans-serif;
