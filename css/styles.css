@@ -135,6 +135,23 @@ color: #404bbf;
 letter-spacing: 0.02em;
 }
 
+.section-three {
+padding-bottom: 120px;
+}
+
+.section-position-title {
+    margin-bottom: 72px;
+}
+
+.section-three-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section-three-list-item {
+width: calc((100% - 48px) / 3);
+}
+
 .section-title-three {
     line-height: 1.11;
     text-align: center;
@@ -145,7 +162,9 @@ letter-spacing: 0.02em;
 
 .section-four {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
+
 
 .section-title-four {
  
