@@ -310,6 +310,11 @@ button[type="button"]:focus {
     margin-bottom: 16px;
 }
 
+.footer-description {
+    max-width: 264px;
+    color: #F4F4FD;
+}
+
 .logo {
     font-family: 'Raleway',
         sans-serif;
