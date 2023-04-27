@@ -223,7 +223,7 @@ font-family: 'Roboto';
     padding: 96px 0 120px;
 }
 
-.section-portfolio-list {
+.filter-portfolio-list {
 display: flex;
 justify-content: center;
 gap: 24px;
@@ -288,8 +288,26 @@ button[type="button"]:focus {
     background: #404BBF;
 }
 
-.project-card {
-    
+.project-card-position {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+
+}
+
+.project-card-item {
+width: calc((100% - 48px) / 3);
+}
+
+.project-card-description {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.card-title-project {
+margin-bottom: 8px;
 }
 
 .main-title {
