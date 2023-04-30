@@ -20,7 +20,7 @@ ul {
     margin: 0 auto;
 }
 
-p, h1, h2, h3 {
+h1, h2, h3 {
 margin: 0 auto;
 }
 
@@ -372,6 +372,7 @@ margin-bottom: 8px;
 .footer-description {
     max-width: 264px;
     color: #F4F4FD;
+   
 }
 
 .logo {
