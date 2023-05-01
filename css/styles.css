@@ -32,6 +32,7 @@ margin: 0 auto;
 .header-position {
     display: flex;
     text-align: center;
+    min-height: 72px;
 }
 
 .container {
@@ -114,7 +115,7 @@ color: #404bbf;
 .header-nav {
         display: flex;
         gap: 40px;
-        padding: 24px 0;
+        padding: 0;
 }
 
 .hero {
@@ -332,7 +333,7 @@ margin-bottom: 8px;
 
 .main-title {
     color: #FFFFFF;
-        
+        margin-bottom: 48px;
         font-style: normal;
         font-weight: 700;
         font-size: 55px;
